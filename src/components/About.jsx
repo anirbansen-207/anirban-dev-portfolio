@@ -30,11 +30,7 @@ function About() {
           </div>
 
           <div className="about-image">
-            <img
-              src="public\images\profile (1).jpg"
-              alt="Anirban Sen"
-              className="profile-pic"
-            />
+            <img src="/images/profile (1).jpg" alt="Anirban Sen" className="profile-pic" />
           </div>
         </div>
       </div>
