@@ -1,0 +1,21 @@
+.footer {
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.footer .heart-icon {
+  color: #ff4d4d;
+  margin: 0 5px;
+  vertical-align: middle;
+  animation: pulse 1s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
