@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Navbar from "./layouts/Navbar";
 import Footer from "./layouts/Footer";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Element name="home"><Home /></Element>
       <Element name="about"><About /></Element>
       <Element name="skills"><Skills /></Element>
+      <Element name="education"><Education/></Element>
       <Element name="projects"><Projects /></Element>
       
       <Element name="contact"><Contact /></Element>

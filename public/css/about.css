@@ -49,3 +49,45 @@
   border-radius: 12px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
+
+/* 🔽 Responsive for screens below 768px */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .about-text {
+    font-size: 15px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .section-subtitle {
+    font-size: 16px;
+  }
+}
+
+/* 🔽 Extra small screens below 480px */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-subtitle {
+    font-size: 15px;
+  }
+
+  .about-text {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .profile-pic {
+    width: 100%;
+    border-radius: 8px;
+  }
+}

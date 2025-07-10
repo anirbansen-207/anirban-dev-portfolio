@@ -25,6 +25,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  justify-content: center;
 }
 
 .contact-item {
@@ -34,6 +35,11 @@
   font-size: 18px;
   justify-content: center;
   color: #333;
+  transition: transform 0.2s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-3px);
 }
 
 .contact-icon {
@@ -48,4 +54,47 @@
 
 .contact-item a:hover {
   text-decoration: underline;
+}
+
+/* 🔽 Responsive Styles */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 28px;
+  }
+
+  .contact-intro {
+    font-size: 16px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    font-size: 16px;
+  }
+
+  .contact-icon {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 24px;
+  }
+
+  .contact-intro {
+    font-size: 15px;
+  }
+
+  .contact-item {
+    font-size: 15px;
+  }
+
+  .contact-icon {
+    font-size: 20px;
+  }
 }

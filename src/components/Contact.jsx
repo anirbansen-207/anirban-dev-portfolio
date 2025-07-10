@@ -12,12 +12,12 @@ function Contact() {
         <div className="contact-grid">
           <div className="contact-item">
             <FaPhone className="contact-icon" />
-            <span>9474077207 / 9749895610</span>
+            <span>9474077207 </span>
           </div>
 
           <div className="contact-item">
             <FaEnvelope className="contact-icon" />
-            <span>anirbansendgp123@gmail.com</span>
+            <span>senanirban2000@gmail.com</span>
           </div>
 
           <div className="contact-item">
